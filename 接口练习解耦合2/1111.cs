@@ -32,7 +32,7 @@ namespace 接口练习解耦合2
         }
     }
 
-  public   class DeskFan
+  public  class DeskFan
     {
 
         private IPowerSupply _powerSupply;

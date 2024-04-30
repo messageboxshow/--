@@ -24,8 +24,15 @@ namespace 接口
         public abstract void Run();
         public abstract void Fly();
     }
+    abstract class Veh
+    {
+        public abstract void Eat1();
+        public abstract void Drink1();
+        public abstract void Run1();
+        public abstract void Fly1();
+    }
 
-    class Car : Vehicle                  //当一个非抽象类继承一个纯抽象类后，必须实现纯抽象类中所有的方法体
+    class Car : Vehicle                   //当一个非抽象类继承一个纯抽象类后，必须实现纯抽象类中所有的方法体
 
     {
         public override void Eat()

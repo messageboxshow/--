@@ -56,7 +56,7 @@ namespace 类的虚方法
 
     class Swoth:SonClss
     {
-        public override void HashTable()      //    <=======这里关键字换成new后，调用不到override
+        public override void HashTable()      //    <=======这里关键字换成new后，调用不到      override
         {
             Console.WriteLine( "我是第二个儿子里的方法");
         }
